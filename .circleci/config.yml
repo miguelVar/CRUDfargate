@@ -15,7 +15,7 @@ workflows:
           dockerfile: Dockerfile
           path: .
           region: AWS_REGION
-          repo: proyecto-frases-circle
+          repo: crud-fargate
           tag: "$CIRCLE_SHA1"
 #      - aws-ecs/deploy-service-update:
 #          requires:
